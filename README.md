@@ -1,11 +1,9 @@
 ## Film Query Application
 
 ### Overview
-This is a Java Program that retrieves data from a large film database and displays it in a readable format to the user.
+This is a Java Program that retrieves data from a large film database and displays it in a readable format to the user. It is menu-based, allowing the user to choose actions and submit query data.
 
-It will be menu-based, allowing the user to choose actions and submit query data.
-
-#### Running the Program
+### Running the Program
 When the user launches the program, the will be presented with a menu that asks if the user would like to **1. Look Up a Film by its ID**, **2. Look Up a Film by Keyword**, or **3. Exit Film Query Application**.
 
 If the user chooses the first option, **1. Look Up a Film by its ID**, then the user will be prompted to **Please Enter a Film ID**. The program will check the Film Query Database to see if the ID entered by the user matches a film in the database. If the ID matches a film in the database then the user will be displayed with the films title, year, rating, description, language, and a list of the actors in the film.
@@ -14,24 +12,17 @@ If the user chooses the second option, **2. Look Up a Film by Keyword**, then th
 
 If the user chooses the third option, **3. Exit Film Query Application**, then the program exits.
 
-#### Technologies Used
+### Technologies Used
 - *Java*
-
 - *SQL*
-
 - *Maven*
-
 - *MAMP*
-
 - *JDBC*
-
 - *Eclipse*
-
 - *Git / GitHub*
-
 - *Terminal*
 
-#### Lessons Learned
+### Lessons Learned
 
 - Learned about the Java Database Connectivity API (JDBC) and how to use the JDBC to access Relational Database Management Systems (RDBMSs)
 
